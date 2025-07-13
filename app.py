@@ -87,7 +87,7 @@ def fetch_first_rss_entry(rss):
 
 @app.route("/testing")
 def test():
-    return render_template("signup.html")
+    return render_template("register.html")
 
 
 @app.route('/testingp', methods=['POST'])
